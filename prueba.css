@@ -1,0 +1,30 @@
+a {
+  display: inline-block;
+  width: 50px;
+  text-decoration: none;
+}
+nav,
+scroll-container {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+nav {
+  width: 339px;
+  padding: 5px;
+  border: 1px solid black;
+}
+scroll-container {
+  display: block;
+  width: 900px;
+  height: 200px;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  white-space: nowrap;
+}
+scroll-page {
+  display: inline-block;
+  width: 200%;
+  height: 10%;
+  font-size: 1em;
+}

@@ -1,0 +1,126 @@
+:root {
+  --primary-color: #ff7a45;
+  --secondary-color: #333740;
+  --just-white: white;
+  --just-black: black;
+  --font-color: black;
+  --font-color2: #bab8b8;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+  background-image: url(/img/placeholder-bg.jpg);
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-size: 100%;
+}
+.header {
+  width: 100%;
+  height: 20%;
+  position: sticky;
+  top: 16rem;
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+  background-color: var(--just-white);
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+.logo__container {
+  width: 5rem;
+  width: 5rem;
+  position: relative;
+  top: -3rem;
+}
+.logo__img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+}
+.header__name {
+  font-size: 2.2rem;
+  font-weight: 500;
+  position: relative;
+  top: -3rem;
+}
+.navbar__container {
+  width: 100%;
+  height: 20%;
+  overflow: auto;
+  white-space: nowrap;
+  position: relative;
+}
+.navbar__container::-webkit-scrollbar {
+  display: none;
+}
+.navbar__buttons {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--font-color2);
+  position: relative;
+}
+#navbar__button1,
+#navbar__button2,
+#navbar__button3,
+#navbar__button4,
+#navbar__button5 {
+  width: 10rem;
+  height: 2rem;
+  position: absolute;
+  background-color: black;
+  transform: translate(0);
+  transition: all 0.5s ease;
+}
+.input__button {
+  display: none;
+}
+#boton-1:checked ~ #navbar__button1 {
+    transform: translate(0px);
+    transition: all 0.5s ease;
+}
+#boton-1:checked ~ #navbar__button2 {
+    transform: translate(100px);
+    transition: all 0.5s ease;
+}
+#boton-1:checked ~ #navbar__button3 {
+    transform: translate(200px);
+    transition: all 0.5s ease;
+}
+#boton-1:checked ~ #navbar__button4 {
+    transform: translate(300px);
+    transition: all 0.5s ease;
+}
+#boton-1:checked ~ #navbar__button5 {
+    transform: translate(400px);
+    transition: all 0.5s ease;
+}
+#boton-2:checked ~ #navbar__button1 {
+    transform: translate(-100px);
+    transition: all 0.5s ease;
+}
+#boton-2:checked ~ #navbar__button2 {
+    transform: translate(0px);
+    transition: all 0.5s ease;
+}
+#boton-2:checked ~ #navbar__button3 {
+    transform: translate(100px);
+    transition: all 0.5s ease;
+}
+#boton-2:checked ~ #navbar__button4 {
+    transform: translate(200px);
+    transition: all 0.5s ease;
+}
+#boton-2:checked ~ #navbar__button5 {
+    transform: translate(300px);
+    transition: all 0.5s ease;
+}
+body {
+  width: 100%;
+  height: 80%;
+}
