@@ -81,44 +81,44 @@ html {
   display: none;
 }
 #boton-1:checked ~ #navbar__button1 {
-    transform: translate(0px);
-    transition: all 0.5s ease;
+  transform: translate(0px);
+  transition: all 0.5s ease;
 }
 #boton-1:checked ~ #navbar__button2 {
-    transform: translate(100px);
-    transition: all 0.5s ease;
+  transform: translate(100px);
+  transition: all 0.5s ease;
 }
 #boton-1:checked ~ #navbar__button3 {
-    transform: translate(200px);
-    transition: all 0.5s ease;
+  transform: translate(200px);
+  transition: all 0.5s ease;
 }
 #boton-1:checked ~ #navbar__button4 {
-    transform: translate(300px);
-    transition: all 0.5s ease;
+  transform: translate(300px);
+  transition: all 0.5s ease;
 }
 #boton-1:checked ~ #navbar__button5 {
-    transform: translate(400px);
-    transition: all 0.5s ease;
+  transform: translate(400px);
+  transition: all 0.5s ease;
 }
 #boton-2:checked ~ #navbar__button1 {
-    transform: translate(-100px);
-    transition: all 0.5s ease;
+  transform: translate(-100px);
+  transition: all 0.5s ease;
 }
 #boton-2:checked ~ #navbar__button2 {
-    transform: translate(0px);
-    transition: all 0.5s ease;
+  transform: translate(0px);
+  transition: all 0.5s ease;
 }
 #boton-2:checked ~ #navbar__button3 {
-    transform: translate(100px);
-    transition: all 0.5s ease;
+  transform: translate(100px);
+  transition: all 0.5s ease;
 }
 #boton-2:checked ~ #navbar__button4 {
-    transform: translate(200px);
-    transition: all 0.5s ease;
+  transform: translate(200px);
+  transition: all 0.5s ease;
 }
 #boton-2:checked ~ #navbar__button5 {
-    transform: translate(300px);
-    transition: all 0.5s ease;
+  transform: translate(300px);
+  transition: all 0.5s ease;
 }
 body {
   width: 100%;
