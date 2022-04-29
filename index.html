@@ -22,41 +22,81 @@
       />
     </figure>
     <h1 class="header__name">Nombre del restorán</h1>
-    <nav class="navbar__container">
-      <form action="" class="navbar__buttons">
-        <input
-          type="radio"
-          name="button"
-          class="input__button"
-          id="boton-1"
-          checked
-        />
-        <input
-          type="radio"
-          name="button"
-          class="input__button"
-          id="boton-2"
-        /><label id="navbar__button2" for="boton-2">Botón 2</label>
-        <input
-          type="radio"
-          name="button"
-          class="input__button"
-          id="boton-3"
-        /><label id="navbar__button3" for="boton-3">Botón 3</label>
-        <input
-          type="radio"
-          name="button"
-          class="input__button"
-          id="boton-4"
-        /><label id="navbar__button4" for="boton-4">Botón 4</label>
-        <input
-          type="radio"
-          name="button"
-          class="input__button"
-          id="boton-5"
-        /><label id="navbar__button5" for="boton-5">Botón 5</label>
-        <label id="navbar__button1" for="boton-1">Botón 1</label>
-      </form>
+    <nav class="navbar">
+      <ul class="navbar__container">
+        <li class="navbar__button" id="boton-1">
+          <input
+            type="radio"
+            name="radio"
+            id="input-1"
+            onClick="window.location='#boton-1'"
+            checked
+          />
+          <label for="input-1">Botón 1 pero con mas texto</label>
+        </li>
+        <li class="navbar__button" id="boton-2">
+          <input
+            type="radio"
+            name="radio"
+            id="input-2"
+            onClick="window.location='#boton-2'"
+          /><label for="input-2">Botón 2</label>
+        </li>
+        <li class="navbar__button" id="boton-3">
+          <input
+            type="radio"
+            name="radio"
+            id="input-3"
+            onClick="window.location='#boton-3'"
+          /><label for="input-3">Botón 3</label>
+        </li>
+        <li class="navbar__button" id="boton-4">
+          <input
+            type="radio"
+            name="radio"
+            id="input-4"
+            onClick="window.location='#boton-4'"
+          /><label for="input-4">Botón 4</label>
+        </li>
+        <li class="navbar__button" id="boton-5">
+          <input
+            type="radio"
+            name="radio"
+            id="input-5"
+            onClick="window.location='#boton-5'"
+          /><label for="input-5">Botón 5</label>
+        </li>
+        <li class="navbar__button" id="boton-6">
+          <input
+            type="radio"
+            name="radio"
+            id="input-6"
+            onClick="window.location='#boton-6'"
+          /><label for="input-6">Botón 6</label>
+        </li>
+        <li class="navbar__button" id="boton-7">
+          <input
+            type="radio"
+            name="radio"
+            id="input-7"
+            onClick="window.location='#boton-7'"
+          /><label for="input-7">Botón 7</label>
+        </li>
+        <li class="navbar__button" id="boton-8">
+          <input
+            type="radio"
+            name="radio"
+            id="input-8"
+            onClick="window.location='#boton-8'"
+          /><label for="input-8">Botón 8</label>
+        </li>
+      </ul>
+      <div class="burguer__button">
+        <div class="burguer__item"></div>
+        <div class="burguer__item"></div>
+        <div class="burguer__item"></div>
+        <div class="transparency"></div>
+      </div>
     </nav>
   </header>
   <body>
