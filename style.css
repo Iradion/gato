@@ -51,7 +51,7 @@ html {
 }
 .navbar__container {
   width: 100%;
-  height: 20%;
+  height: 32%;
   overflow: auto;
   white-space: nowrap;
   position: relative;
@@ -70,55 +70,58 @@ html {
 #navbar__button3,
 #navbar__button4,
 #navbar__button5 {
-  width: 10rem;
-  height: 2rem;
+  width: 8rem;
+  height: 4rem;
+  padding: 1rem 1rem;
+  text-align: center;
   position: absolute;
-  background-color: black;
   transform: translate(0);
-  transition: all 0.5s ease;
+  transition: transform 0.5s ease;
 }
 .input__button {
   display: none;
 }
 #boton-1:checked ~ #navbar__button1 {
   transform: translate(0px);
-  transition: all 0.5s ease;
+  transition: transform 0.5s ease;
+  border-bottom: 2px solid black;
 }
 #boton-1:checked ~ #navbar__button2 {
   transform: translate(100px);
-  transition: all 0.5s ease;
+  transition: transform 0.5s ease;
 }
 #boton-1:checked ~ #navbar__button3 {
   transform: translate(200px);
-  transition: all 0.5s ease;
+  transition: transform 0.5s ease;
 }
 #boton-1:checked ~ #navbar__button4 {
   transform: translate(300px);
-  transition: all 0.5s ease;
+  transition: transform 0.5s ease;
 }
 #boton-1:checked ~ #navbar__button5 {
   transform: translate(400px);
-  transition: all 0.5s ease;
+  transition: transform 0.5s ease;
 }
 #boton-2:checked ~ #navbar__button1 {
   transform: translate(-100px);
-  transition: all 0.5s ease;
+  transition: transform 0.5s ease;
 }
 #boton-2:checked ~ #navbar__button2 {
   transform: translate(0px);
-  transition: all 0.5s ease;
+  transition: transform 0.5s ease;
+  border-bottom: 2px solid black;
 }
 #boton-2:checked ~ #navbar__button3 {
   transform: translate(100px);
-  transition: all 0.5s ease;
+  transition: transform 0.5s ease;
 }
 #boton-2:checked ~ #navbar__button4 {
   transform: translate(200px);
-  transition: all 0.5s ease;
+  transition: transform 0.5s ease;
 }
 #boton-2:checked ~ #navbar__button5 {
   transform: translate(300px);
-  transition: all 0.5s ease;
+  transition: transform 0.5s ease;
 }
 body {
   width: 100%;
