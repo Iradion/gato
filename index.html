@@ -11,10 +11,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./style.css" />
+    <script type="text/javascript" src="./script.js"></script>
     <title>Proyecto del Cat</title>
   </head>
   <body>
-    <script type="text/javascript" src="./script.js"></script>
     <div class="random-container"></div>
   <header class="header">
     <figure class="logo__container">
@@ -32,25 +32,25 @@
             type="radio"
             name="radio"
             id="input-1"
-            onClick="window.location='#boton-1'"            
+            onclick="funcion1()"    
             checked
           />
-          <label for="input-1">Populares</label>
+          <label for="input-1" id="populares">Populares</label>
         </li>
         <li class="navbar__button" id="boton-2">
           <input
             type="radio"
             name="radio"
             id="input-2"
-            onClick="window.location='#boton-2'"
-          /><label for="input-2">Promociones</label>
+            onclick="funcion2()"     
+          /><label for="input-2" id="promociones">Promociones</label>
         </li>
         <li class="navbar__button" id="boton-3">
           <input
             type="radio"
             name="radio"
             id="input-3"
-            onClick="window.location='#boton-3'"
+            onclick="funcion3()"     
           /><label for="input-3">Desayunos</label>
         </li>
         <li class="navbar__button" id="boton-4">
@@ -58,7 +58,7 @@
             type="radio"
             name="radio"
             id="input-4"
-            onClick="window.location='#boton-4'"
+            onclick="perron()" 
           /><label for="input-4">Botón 4</label>
         </li>
         <li class="navbar__button" id="boton-5">
@@ -66,7 +66,7 @@
             type="radio"
             name="radio"
             id="input-5"
-            onClick="window.location='#boton-5'"
+            onclick="myFunction5()"     
           /><label for="input-5">Botón 5</label>
         </li>
         <li class="navbar__button" id="boton-6">
@@ -74,7 +74,7 @@
             type="radio"
             name="radio"
             id="input-6"
-            onClick="window.location='#boton-6'"
+            onclick="perron()" 
           /><label for="input-6">Botón 6</label>
         </li>
         <li class="navbar__button" id="boton-7">
@@ -82,7 +82,7 @@
             type="radio"
             name="radio"
             id="input-7"
-            onclick="myFunction()"
+            onclick="myFunction7()"
           /><label for="input-7">Botón 7</label>
         </li>
         <li class="navbar__button" id="boton-8">
@@ -90,7 +90,7 @@
             type="radio"
             name="radio"
             id="input-8"
-            onclick="myFunction()"
+            onclick="perron()"  
           /><label for="input-8">Botón 8</label>
         </li>
       </ul>

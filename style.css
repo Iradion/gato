@@ -6,7 +6,8 @@
   --font-color: black;
   --font-color2: #bab8b8;
   --bg-color: #f8f8f8;
-  counter-reset: section;
+  /* scroll-behavior: smooth; */
+  
 }
 * {
   margin: 0;
@@ -23,6 +24,7 @@ html {
   object-fit: contain;
   background-size: 100%;
   background-color: var(--bg-color);
+  scroll-behavior: smooth;
 }
 .random-container {
   width: 100%;
@@ -38,7 +40,6 @@ html {
   flex-flow: column wrap;
   background-color: var(--just-white);
   border-radius: 0.5rem 0.5rem 0 0;
-  scroll-behavior: smooth;
   z-index: 1;
 }
 body {
@@ -229,7 +230,7 @@ main {
 .populares__card .card__button {
   grid-area: 4 / 1 / 5 / 2;
   margin: 0.5rem;
-  border: 1px solid #f2c8b6;;
+  border: 1px solid #f2c8b6;
   border-radius: 0.5rem;
   background-color: var(--just-white);
   color: var(--primary-color);
@@ -259,7 +260,7 @@ main {
 .promociones__card .card__button {
   grid-area: 4 / 1 / 5 / 2;
   margin: 0.5rem;
-  border: 1px solid #f2c8b6;;
+  border: 1px solid #f2c8b6;
   border-radius: 0.5rem;
   background-color: var(--just-white);
   color: var(--primary-color);
@@ -289,7 +290,7 @@ main {
 .desayunos__card .card__button {
   grid-area: 4 / 1 / 5 / 2;
   margin: 0.5rem;
-  border: 1px solid #f2c8b6;;
+  border: 1px solid #f2c8b6;
   border-radius: 0.5rem;
   background-color: var(--just-white);
   color: var(--primary-color);
@@ -305,5 +306,5 @@ main {
   border-radius: 0.5rem;
 }
 .card__button:active {
-  background-color:#fff8f5;
+  background-color: #fff8f5;
 }
