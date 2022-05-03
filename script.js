@@ -1,9 +1,6 @@
 function myFunction1() {
   const element = document.getElementById("populares");
-  element.scrollIntoView((AlignToTop = false));
-  element.scrollIntoView((AlignToRight = false));
-  element.scrollIntoView((AlignToBottom = false));
-  element.scrollIntoView((AlignToLeft = true));
+  element.scrollIntoView(AlignToTop = true);
 }
 function myFunction2() {
   setTimeout(function () {
@@ -28,9 +25,6 @@ function myFunction3() {
 function myFunction4() {
   setTimeout(function () {
     const element = document.getElementById("boton-2");
-    element.scrollIntoView((AlignToTop = false));
-    element.scrollIntoView((AlignToRight = false));
-    element.scrollIntoView((AlignToBottom = false));
     element.scrollIntoView((AlignToLeft = true));
   }, 150);
 }
@@ -41,10 +35,7 @@ function funcion2() {
 
 function myFunction5() {
   const element = document.getElementById("desayunos");
-  element.scrollIntoView((AlignToTop = false));
-  element.scrollIntoView((AlignToRight = false));
-  element.scrollIntoView((AlignToBottom = false));
-  element.scrollIntoView((AlignToLeft = true));
+element.scrollIntoView(AlignToTop = true);
 }
 function myFunction6() {
   setTimeout(function () {

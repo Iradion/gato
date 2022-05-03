@@ -6,8 +6,6 @@
   --font-color: black;
   --font-color2: #bab8b8;
   --bg-color: #f8f8f8;
-  /* scroll-behavior: smooth; */
-  
 }
 * {
   margin: 0;
@@ -19,20 +17,23 @@ html {
   height: 100vh;
   font-family: "Roboto", sans-serif;
   font-size: 62.5%;
-  background-image: url(./img/placeholder-bg.jpg);
-  background-repeat: no-repeat;
-  object-fit: contain;
-  background-size: 100%;
   background-color: var(--bg-color);
   scroll-behavior: smooth;
 }
 .random-container {
   width: 100%;
   height: 25%;
+  background-image: url(./img/placeholder-bg.jpg);
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-size: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 0;
 }
 .header {
   width: 100%;
-  height: 18%;
+  height: 19%;
   position: sticky;
   top: -1rem;
   display: flex;
@@ -189,6 +190,7 @@ main {
   height: auto;
   position: absolute;
   top: 28rem;
+  background-color: var(--bg-color);
 }
 .card {
   width: 95%;
