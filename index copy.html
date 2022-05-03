@@ -13,9 +13,6 @@
     <link rel="stylesheet" href="./style.css" />
     <title>Proyecto del Cat</title>
   </head>
-  <body>
-    <script type="text/javascript" src="./script.js"></script>
-    <div class="random-container"></div>
   <header class="header">
     <figure class="logo__container">
       <img
@@ -32,10 +29,10 @@
             type="radio"
             name="radio"
             id="input-1"
-            onClick="window.location='#boton-1'"            
+            onClick="window.location='#boton-1'"
             checked
           />
-          <label for="input-1">Populares</label>
+          <label for="input-1">Botón 1 pero con mas texto</label>
         </li>
         <li class="navbar__button" id="boton-2">
           <input
@@ -43,7 +40,7 @@
             name="radio"
             id="input-2"
             onClick="window.location='#boton-2'"
-          /><label for="input-2">Promociones</label>
+          /><label for="input-2">Botón 2</label>
         </li>
         <li class="navbar__button" id="boton-3">
           <input
@@ -51,7 +48,7 @@
             name="radio"
             id="input-3"
             onClick="window.location='#boton-3'"
-          /><label for="input-3">Desayunos</label>
+          /><label for="input-3">Botón 3</label>
         </li>
         <li class="navbar__button" id="boton-4">
           <input
@@ -82,7 +79,7 @@
             type="radio"
             name="radio"
             id="input-7"
-            onclick="myFunction()"
+            onClick="window.location='#boton-7'"
           /><label for="input-7">Botón 7</label>
         </li>
         <li class="navbar__button" id="boton-8">
@@ -90,80 +87,43 @@
             type="radio"
             name="radio"
             id="input-8"
-            onclick="myFunction()"
+            onClick="window.location='#boton-8'"
           /><label for="input-8">Botón 8</label>
         </li>
       </ul>
-        <div class="burguer__button">
+      <input type="checkbox" id="checkbox" />
+      <label for="checkbox">
+        <div class="burguer__button" onClick="window.location='#boton-1'">
           <div class="burguer__item"></div>
           <div class="burguer__item"></div>
           <div class="burguer__item"></div>
           </div>
+          </label>
           <div class="transparency"></div></div
       >
-        <ul class="lista__despegable hidden">
+      <div class="lista__despegable">
+        <ul class="navbar__desplegable">
           <li class="desplegable__button">Botón 1</li>
-          <li class="desplegable__button">Botón 2</li>
-          <li class="desplegable__button">Botón 3</li>
-          <li class="desplegable__button">Botón 4</li>
-          <li class="desplegable__button">Botón 5</li>
-          <li class="desplegable__button">Botón 6</li>
-          <li class="desplegable__button">Botón 7</li>
-          <li class="desplegable__button">Botón 8</li>
         </ul>
+      </div>
     </nav>
   </header>
-  <main>
+  <body>
     <section class="populares">
-      <h2 class="section__name hidden" id="populares">Populares</h2>
-      <div class="card populares__card">
+      <div class="populares__card">
         <h2 class="card__name">Nombre comida</h2>
-        <p class="card__description">Lorem ipsum dolor sit amet.</p>
-        <span class="card__price">MX$</span>
+        <span class="card__price">Precio comida</span>
         <input type="button" value="Agregar" class="card__button" />
-        <figure class="img__container">
-        <img src="./img/placeholder-comida.jpg" alt="Foto de la comida" class="card__img" /></figure>
+        <img src="/" alt="Foto de la comida" class="card__img" />
       </div>
     </section>
     <section class="promociones">
-      <h2 class="section__name" id="promociones">Promociones</h2>
-      <div class="card promociones__card">
+      <div class="promociones__card">
         <h2 class="card__name">Nombre comida</h2>
-        <p class="card__description">Lorem ipsum dolor sit amet.</p>
-        <span class="card__price">MX$</span>
+        <span class="card__price">Precio comida</span>
         <input type="button" value="Agregar" class="card__button" />
-        <figure class="img__container">
-        <img src="./img/placeholder-comida.jpg" alt="Foto de la comida" class="card__img" /></figure>
+        <img src="/" alt="Foto de la comida" class="card__img" />
       </div>
     </section>
-        </section>
-    <section class="desayunos">
-      <h2 class="section__name" id="desayunos">Desayunos</h2>
-      <div class="card desayunos__card">
-        <h2 class="card__name">Nombre comida</h2>
-        <p class="card__description">Lorem ipsum dolor sit amet.</p>
-        <span class="card__price">MX$</span>
-        <input type="button" value="Agregar" class="card__button" />
-        <figure class="img__container">
-        <img src="./img/placeholder-comida.jpg" alt="Foto de la comida" class="card__img" /></figure>
-      </div>
-            <div class="card desayunos__card">
-        <h2 class="card__name">Nombre comida</h2>
-        <p class="card__description">Lorem ipsum dolor sit amet.</p>
-        <span class="card__price">MX$</span>
-        <input type="button" value="Agregar" class="card__button" />
-        <figure class="img__container">
-        <img src="./img/placeholder-comida.jpg" alt="Foto de la comida" class="card__img" /></figure>
-      </div>
-            <div class="card desayunos__card">
-        <h2 class="card__name">Nombre comida</h2>
-        <p class="card__description">Lorem ipsum dolor sit amet.</p>
-        <span class="card__price">MX$</span>
-        <input type="button" value="Agregar" class="card__button" />
-        <figure class="img__container">
-        <img src="./img/placeholder-comida.jpg" alt="Foto de la comida" class="card__img" /></figure>
-      </div>
-    </section>
-  </main>  
   </body>
 </html>

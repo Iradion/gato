@@ -1,3 +1,6 @@
+body {
+  counter-reset: section;
+}
 scroll-container {
   display: block;
   margin: 0 auto;
@@ -8,6 +11,7 @@ scroll-container {
   scroll-behavior: smooth;
   white-space: nowrap;
   transform: rotate(-90deg);
+  
 }
 scroll-page {
   display: block;
@@ -17,4 +21,10 @@ scroll-page {
   background-color: black;
   color: white;
   margin: 20px;
+}
+a::after {
+  counter-increment: section;
+}
+a::after {
+  content: " " counter(section) " ";
 }
