@@ -386,6 +386,7 @@ main {
 }
 #add__button {
   width: 90%;
+  max-width: 74.6rem;
   height: 3.5rem;
   position: fixed;
   margin: 0 0 1rem 1.5rem;
