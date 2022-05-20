@@ -1,52 +1,11 @@
-function myFunction1() {
-  const element = document.getElementById("populares");
-  element.scrollIntoView(AlignToTop = true);
+function showModal() {
+  document.getElementById("modal-cart").style.bottom = "0";
+  document.getElementById("add__button").style.bottom = "0";
+  document.getElementById("cart__close").style.visibility = "visible";
 }
-function myFunction2() {
-  setTimeout(function () {
-    const element = document.getElementById("boton-1");
-    element.scrollIntoView((AlignToTop = false));
-    element.scrollIntoView((AlignToRight = false));
-    element.scrollIntoView((AlignToBottom = false));
-    element.scrollIntoView((AlignToLeft = true));
-  }, 100);
-}
-function funcion1() {
-  myFunction1();
-  myFunction2();
-}
-function myFunction3() {
-  const element = document.getElementById("promociones");
-  element.scrollIntoView((AlignToTop = true));
-  element.scrollIntoView((AlignToRight = false));
-  element.scrollIntoView((AlignToBottom = true));
-  element.scrollIntoView((AlignToLeft = false));
-}
-function myFunction4() {
-  setTimeout(function () {
-    const element = document.getElementById("boton-2");
-    element.scrollIntoView((AlignToLeft = true));
-  }, 150);
-}
-function funcion2() {
-  myFunction3();
-  myFunction4();
-}
-
-function myFunction5() {
-  const element = document.getElementById("desayunos");
-element.scrollIntoView(AlignToTop = true);
-}
-function myFunction6() {
-  setTimeout(function () {
-    const element = document.getElementById("boton-3");
-    element.scrollIntoView((AlignToTop = false));
-    element.scrollIntoView((AlignToRight = false));
-    element.scrollIntoView((AlignToBottom = false));
-    element.scrollIntoView((AlignToLeft = true));
-  }, 450);
-}
-function funcion3() {
-  myFunction5();
-  myFunction6();
+function hideModal() {
+  document.getElementById("modal-cart").style.bottom = "-100vh";
+  document.getElementById("add__button").style.bottom = "-5rem";
+  document.getElementById("cart__close").style.visibility = "hidden";
+  document.getElementById("cart__close").style.transition = "visibility 0s";
 }
